@@ -1,0 +1,15 @@
+digraph G {
+  "curl" [shape=box];
+  "curl" -> "libc6";
+  "libc6" [shape=box];
+}
+  "curl" -> "libcurl4";
+  "libcurl4" [shape=box];
+  "libcurl4" -> "zlib1g";
+  "zlib1g" [shape=box];
+}
+  "libcurl4" -> "openssl";
+  "openssl" [shape=box];
+}
+}
+}

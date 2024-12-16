@@ -1,0 +1,3 @@
+(def constant1 42);
+(def constant2 3.14);
+(def list1 { 1, 2, 3 });
